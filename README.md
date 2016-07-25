@@ -1,4 +1,4 @@
-# Graph Builder 2
+# Graph Builder
 *Current version: 1.0* 
 
 Program and library for building mathematical graphs and visualizing algorithms wrote with C++ and Qt.
