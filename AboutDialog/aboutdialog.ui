@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>238</width>
-    <height>369</height>
+    <width>244</width>
+    <height>422</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,7 +36,10 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#860000;&quot;&gt;Graph builder&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Version: 1.0&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Program for building graphs&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;(c) Ivan Kondratuk&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;b&gt;Graph builder&lt;/b&gt;&lt;br&gt;&lt;i&gt;version 1.0&lt;/i&gt;&lt;br&gt;Created for building graphs and visualizing algorithms&lt;br&gt;Created by &lt;a href=&quot;mailto:i.o.kondratuk@gmail.com?Subject=Graph%20Builder&quot;&gt;Ivan Kondratuk&lt;/a&gt;&lt;br&gt;Links: &lt;a href=&quot;https://github.com/Oakware/Graph-Builder&quot;&gt;Github&lt;/a&gt;&lt;br&gt;&lt;i&gt;Licensed under GNU GPLv3&lt;br&gt;Copyright © 2015 &lt;a href=&quot;https://github.com/Oakware&quot;&gt;Oakware&lt;/a&gt;&lt;br&gt;&quot;All Rights Reserved&lt;/i&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
