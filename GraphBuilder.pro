@@ -1,16 +1,10 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2015-03-30T08:45:31
-#
-#-------------------------------------------------
-
 QT += core gui
 ICON = App.icns
 RC_FILE = app.rc
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = GraphBuilder
+TARGET = "Graph Builder"
 TEMPLATE = app
 
 TRANSLATIONS += Translations/Ukrainian.ts
