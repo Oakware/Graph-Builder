@@ -5,6 +5,7 @@ RC_FILE = app.rc
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = "Graph Builder"
+VERSION = 1.0
 TEMPLATE = app
 
 TRANSLATIONS += Translations/Ukrainian.ts
