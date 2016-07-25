@@ -36,8 +36,8 @@ OptionDialog::OptionDialog(PROptions *opt, QWidget *parent) :
 			this, SLOT(ColorSet()));
 
 				// Initialize setings
-	ui->comboBox->addItem(QString("English"),   QVariant((QLocale) QLocale::English));
-	ui->comboBox->addItem(QString("Українська"),QVariant((QLocale) QLocale::Ukrainian));
+	ui->comboBox->addItem(QString("English"),   QVariant(QLocale(QLocale::English)));
+	ui->comboBox->addItem(QString("Українська"),QVariant(QLocale(QLocale::Ukrainian)));
 
 	switch(Options->Language.language()){
 		case QLocale::English:		ui->comboBox->setCurrentIndex(0); break;
@@ -68,11 +68,13 @@ OptionDialog::PROptions::PROptions():
 	Editable(true), VDWVisible(true), RDWVisible(true),
 	GrAlgoSelected(0), GrAlgoDelay(500), Language(QLocale::English)
 {
-	QDir dir; dir.mkpath(QDir::currentPath() + "/Options");
+	QString pluginsPath = QCoreApplication::applicationDirPath() + "/Options/";
+	QDir dir(pluginsPath);
+	if(!dir.exists()) dir.mkpath(pluginsPath);
 }
 
 void OptionDialog::PROptions::Load(){
-	QFile Opt(QDir::currentPath() + "/Options/Options.dat");
+	QFile Opt(QCoreApplication::applicationDirPath() + "/Options/Options.dat");
 	QDataStream io(&Opt);
 
 	if(!Opt.open(QFile::ReadOnly))
@@ -86,7 +88,7 @@ void OptionDialog::PROptions::Load(){
 }
 
 void OptionDialog::PROptions::Save(){
-	QFile Opt(QDir::currentPath() + "/Options/Options.dat");
+	QFile Opt(QCoreApplication::applicationDirPath() + "/Options/Options.dat");
 	QDataStream io(&Opt);
 
 	Opt.open(QFile::WriteOnly);

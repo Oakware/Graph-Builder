@@ -24,6 +24,7 @@
 #define OPTIONDIALOG_H
 
 ///				<Includes>
+#include <QCoreApplication>
 #include <QDialog>
 #include <QColorDialog>
 
