@@ -1,7 +1,7 @@
 # Graph Builder
-*Current version: 1.0.2* 
+*Current version: 1.0* 
 
-Program and libruary for building mathematical graphs and visualizing algorithms writed with C++ and Qt.
+Program and library for building mathematical graphs and visualizing algorithms wrote with C++ and Qt.
 
 # It is old version. For newer version visit [Graph Builder 2](https://github.com/Oakware/Graph-Builder-2) page.
 
