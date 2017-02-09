@@ -8,7 +8,7 @@ Program and library for building mathematical graphs and visualizing algorithms 
 ***********
 
 ## Download
-You can download Graph Builder release for **Windows** and **Mac** [here](https://drive.google.com/folderview?id=0B_6lHTRnZzjAR0t3c1Z1bUZuWEE&usp=sharing).
+You can download Graph Builder release for **Windows** and **Mac** [here](https://github.com/Oakware/Graph-Builder/releases).
 
 ## About
 *Licensed under GNU GPLv3.* See LICENSE file.
